@@ -18,7 +18,7 @@
     { role: 'user', content: `請根據以下提供的文件撰寫專案總結報告。請判斷提供的文件內容是否足以撰寫完整的專案報告。如果內容不足，請說明哪些資訊缺失並避免產出不完整的報告。報告應展示專案的背景、目標、關鍵決策、解決方案，以及執行過程中的挑戰與應對措施。此外，若有明確的里程碑和重要時間點，請在報告中適當位置加入。報告應簡潔明瞭、重點突出，並在適當時包含數據支持和未來展望。以下是專案的相關文件：\n\n${combinedContent}` }
 ```
 
-1. 執行 ```npm ci```   
+1. ss-server 執行 ```npm ci```   
 2. 建立 .env 檔案, 填寫 ```OPENAI_API_KEY=你的 API Key```  
 3. 執行 ```node server.js```， 成功的話會看見：  
     Server is running on http://localhost:3000
@@ -27,7 +27,7 @@
 
 只有添加無障礙技術，沒做其他什麼事。  
 
-1. 執行 ```npm ci```  
+1. ss-app 執行 ```npm ci```  
 2. 執行 ```npm run serve```， 成功的話會看見：  
     App running at:  
     - Local:   http://localhost:8080/  

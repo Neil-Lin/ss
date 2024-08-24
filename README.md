@@ -1,7 +1,11 @@
-# ss
+# ss sideproject 專案背景
 
-完全依靠 chatGPT 無腦寫 Code，建立一個 sideproject:  
-上傳多個 .docx 文件，利用 LLM 產出專案總結報告  
+1. 動機：想試試看完全依靠 chatGPT 無腦一步一步寫 Code，建立一個 sideproject   
+2. 功能：上傳多個 .docx 檔案，請 LLM 幫我總結一個專案報告文件。
+3. 感想：prompt 最棘手，雖然也有問 chatGPT-4o 4o-mini 的 prompt 要怎麼寫會比較好，但還是花了最多時間在試誤。這也應證了我一直覺得花時間在 prompt 上可能會讓大家在專業上分心。
+
+雖然用 chatGPT-4o 就可以了根本不用寫程式，也不用花小錢打 API，   
+但選完檔案直接產出還是有一定的爽度。  
 
 ## 1. Backend(node)  
 

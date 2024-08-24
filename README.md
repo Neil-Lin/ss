@@ -1,6 +1,6 @@
 # ss
 
-透過 chatGPT 輔助寫程式，建立一個 sideproject:  
+完全依靠 chatGPT 輔助寫 Code，建立一個 sideproject:  
 上傳多個 .docx 文件，利用 LLM 產出專案總結報告  
 
 ## 1. Backend(node)  
